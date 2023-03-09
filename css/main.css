@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos&family=Oxygen:wght@300&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/************ STRUCTURE ************/
+
+
+body {
+    background-color: #EDF1D6;
+}
+
+h1 {
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+    font-size: 3em;
+    text-align: center;
+    font-family: genos;
+}
+
+h2 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: genos;
+}
+
+p, a {
+    font-family: oxygen;
+    text-decoration: none;
+    color: inherit;
+}
+/*********** NAVBAR ************/
+
+.imgnav {
+    width: 15%;
+}
+
+header nav p {
+    font-size: .8em;
+}
+
+/************ CARD **********/
+
+.card {
+    margin-top: 1em;
+
+    overflow: hidden;
+}
+
+.card-img-top {
+    max-height: 150px;
+}
+
+/*****************SOMMES**********/
+.contsom {
+    width: 90%;
+    margin: auto;
+}
+
+.somdis {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.somdiss {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.somdis p {
+    width: 30%;
+}
+
+.somdis img {
+    width: 50px;
+    margin: 20px;
+}
+
+
+/************* FOOTER ***********/
+
+footer { 
+    background-color: #40513B;
+
+}
+
+footer h2 {
+    text-align: center;
+    padding-top: 2em;
+}
+
+footer p {
+    margin-bottom: 0;
+}
